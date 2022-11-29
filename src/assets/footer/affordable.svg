@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Affordable</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="36" height="36"></rect>
+        <rect id="path-3" x="0" y="0" width="36" height="36"></rect>
+        <rect id="path-5" x="0" y="0" width="36" height="36"></rect>
+    </defs>
+    <g id="11、详情页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商品详情-未登录" transform="translate(-425.000000, -2526.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="2958"></rect>
+            <g id="底部" transform="translate(0.000000, 2494.000000)">
+                <rect id="Rectangle-15" fill="#FFFFFF" x="0" y="0" width="1440" height="464"></rect>
+                <g id="编组-12" transform="translate(80.000000, 32.000000)">
+                    <g id="服务保障" transform="translate(345.000000, 0.000000)">
+                        <g id="Affordable">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="矩形备份-9"></g>
+                            <ellipse id="椭圆形备份-6" stroke="#333333" stroke-width="2" fill="#1BA1DB" stroke-linejoin="round" mask="url(#mask-2)" cx="19.6565125" cy="15.75" rx="8.875" ry="3.25"></ellipse>
+                            <ellipse id="椭圆形备份-6" stroke="#333333" stroke-width="2" fill="#1BA1DB" stroke-linejoin="round" mask="url(#mask-2)" cx="19.6565125" cy="11.25" rx="8.875" ry="3.25"></ellipse>
+                            <ellipse id="椭圆形" stroke="#333333" stroke-width="2" fill="#FFFFFF" stroke-linejoin="round" mask="url(#mask-2)" cx="19.6565125" cy="6.75" rx="8.875" ry="3.25"></ellipse>
+                            <path d="M13.5396993,27.2934589 L18.7913234,29.4121189 C20.2146045,29.9863125 21.8338777,29.297991 22.4080713,27.8747099 C22.41215,27.8645999 22.4161691,27.8544659 22.4201286,27.8443086 C22.9432163,26.5024004 22.2794312,24.9905225 20.937523,24.4674347 C20.8765793,24.4436783 20.8147634,24.4222233 20.7522064,24.403115 L8.98173158,20.8077902 L8.98173158,20.8077902 L5.625,21.9372169 L5.625,29.6809455 L7.90724782,29.6809455 L20.341379,34.05798 L31.8918499,27.915203 C33.4457932,27.0887841 34.0355682,25.1591194 33.2091494,23.6051761 C33.1799885,23.550344 33.1492311,23.496376 33.1169164,23.4433413 C32.1333299,21.8290821 30.0539488,21.2740971 28.3967875,22.183543 L22.3023504,25.5281546 L22.3023504,25.5281546" id="路径-2" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                            <rect id="矩形" fill="#333333" mask="url(#mask-2)" x="1.125" y="21.68298" width="2.25" height="9" rx="1"></rect>
+                        </g>
+                        <text id="Wide-Choices" font-family="Helvetica" font-size="16" font-weight="normal" fill="#000000" fill-opacity="0.85">
+                            <tspan x="44" y="15">Affordable</tspan>
+                        </text>
+                        <text id="A-selection-of-top-b" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000" fill-opacity="0.65">
+                            <tspan x="44" y="34">Home of genuine and affordable </tspan>
+                            <tspan x="44" y="48">products</tspan>
+                        </text>
+                    </g>
+                    <g id="服务保障" transform="translate(345.000000, 0.000000)">
+                        <g id="Affordable">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="矩形备份-9"></g>
+                            <ellipse id="椭圆形备份-6" stroke="#333333" stroke-width="2" fill="#1BA1DB" stroke-linejoin="round" mask="url(#mask-4)" cx="19.6565125" cy="15.75" rx="8.875" ry="3.25"></ellipse>
+                            <ellipse id="椭圆形备份-6" stroke="#333333" stroke-width="2" fill="#1BA1DB" stroke-linejoin="round" mask="url(#mask-4)" cx="19.6565125" cy="11.25" rx="8.875" ry="3.25"></ellipse>
+                            <ellipse id="椭圆形" stroke="#333333" stroke-width="2" fill="#FFFFFF" stroke-linejoin="round" mask="url(#mask-4)" cx="19.6565125" cy="6.75" rx="8.875" ry="3.25"></ellipse>
+                            <path d="M13.5396993,27.2934589 L18.7913234,29.4121189 C20.2146045,29.9863125 21.8338777,29.297991 22.4080713,27.8747099 C22.41215,27.8645999 22.4161691,27.8544659 22.4201286,27.8443086 C22.9432163,26.5024004 22.2794312,24.9905225 20.937523,24.4674347 C20.8765793,24.4436783 20.8147634,24.4222233 20.7522064,24.403115 L8.98173158,20.8077902 L8.98173158,20.8077902 L5.625,21.9372169 L5.625,29.6809455 L7.90724782,29.6809455 L20.341379,34.05798 L31.8918499,27.915203 C33.4457932,27.0887841 34.0355682,25.1591194 33.2091494,23.6051761 C33.1799885,23.550344 33.1492311,23.496376 33.1169164,23.4433413 C32.1333299,21.8290821 30.0539488,21.2740971 28.3967875,22.183543 L22.3023504,25.5281546 L22.3023504,25.5281546" id="路径-2" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)"></path>
+                            <rect id="矩形" fill="#333333" mask="url(#mask-4)" x="1.125" y="21.68298" width="2.25" height="9" rx="1"></rect>
+                        </g>
+                        <g id="Affordable">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="矩形备份-9"></g>
+                            <ellipse id="椭圆形备份-6" stroke="#333333" stroke-width="2" fill="#1BA1DB" stroke-linejoin="round" mask="url(#mask-6)" cx="19.6565125" cy="15.75" rx="8.875" ry="3.25"></ellipse>
+                            <ellipse id="椭圆形备份-6" stroke="#333333" stroke-width="2" fill="#1BA1DB" stroke-linejoin="round" mask="url(#mask-6)" cx="19.6565125" cy="11.25" rx="8.875" ry="3.25"></ellipse>
+                            <ellipse id="椭圆形" stroke="#333333" stroke-width="2" fill="#FFFFFF" stroke-linejoin="round" mask="url(#mask-6)" cx="19.6565125" cy="6.75" rx="8.875" ry="3.25"></ellipse>
+                            <path d="M13.5396993,27.2934589 L18.7913234,29.4121189 C20.2146045,29.9863125 21.8338777,29.297991 22.4080713,27.8747099 C22.41215,27.8645999 22.4161691,27.8544659 22.4201286,27.8443086 C22.9432163,26.5024004 22.2794312,24.9905225 20.937523,24.4674347 C20.8765793,24.4436783 20.8147634,24.4222233 20.7522064,24.403115 L8.98173158,20.8077902 L8.98173158,20.8077902 L5.625,21.9372169 L5.625,29.6809455 L7.90724782,29.6809455 L20.341379,34.05798 L31.8918499,27.915203 C33.4457932,27.0887841 34.0355682,25.1591194 33.2091494,23.6051761 C33.1799885,23.550344 33.1492311,23.496376 33.1169164,23.4433413 C32.1333299,21.8290821 30.0539488,21.2740971 28.3967875,22.183543 L22.3023504,25.5281546 L22.3023504,25.5281546" id="路径-2" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-6)"></path>
+                            <rect id="矩形" fill="#333333" mask="url(#mask-6)" x="1.125" y="21.68298" width="2.25" height="9" rx="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

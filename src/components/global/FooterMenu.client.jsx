@@ -1,7 +1,12 @@
 // @ts-expect-error @headlessui/react incompatibility with node16 resolution
 import {Disclosure} from '@headlessui/react';
 import {Link} from '@shopify/hydrogen';
-
+import '../../styles/footer.css';
+import Affordable from '../../assets/footer/affordable.svg';
+import Reviews from '../../assets/footer/reviews.svg';
+import Secure from '../../assets/footer/secure.svg';
+import WideChoice from '../../assets/footer/wide_choice.svg';
+import dropDownImg from '~/assets/header/dropDown.png';
 import {Heading, IconCaret} from '~/components';
 
 /**

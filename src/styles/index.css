@@ -65,6 +65,9 @@ shop-pay-button {
   body {
     @apply antialiased text-primary/90 bg-contrast border-primary/10;
   }
+  body {
+    color: #000;
+  }
 
   html {
     scroll-padding-top: 10rem;

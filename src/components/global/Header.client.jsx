@@ -157,6 +157,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
       <div className='header-top'>
         <Link to="/" className='header-top-item'>
             <Image
+              alt="help center"
               src={helpCenterImg}
               width={16}
               height={16}
@@ -165,6 +166,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
         </Link>
         <Link to="/" className='header-top-item'>
             <Image
+              alt="about"
               src={aboutImg}
               width={16}
               height={16}
@@ -215,6 +217,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
         <div className="flex items-center gap-1">
           <Link to={'/account'} className="header-search-icon">
             <Image
+              alt="user"
               src={userImg}
               width={24}
               height={24}
@@ -223,6 +226,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
           </Link>
           <Link to="/" className="header-search-icon">
             <Image
+              alt="order"
               src={ordersImg}
               width={24}
               height={24}
@@ -232,6 +236,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
           <button onClick={openCart} className="header-search-icon">
             {/* <IconBag /> */}
             <Image
+              alt="cart"
               src={cartImg}
               width={24}
               height={24}
