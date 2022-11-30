@@ -23,10 +23,10 @@ export function Footer({menu}) {
 
 
     const serviceList = [
-      {title: 'Wide Choices', content: 'A selection of top brands around the world' },
-      {title: 'Affordable', content: 'Home of genuine and affordable products' },
-      {title: 'Global Reviews', content: 'A collection of reviews for making informed choices' },
-      {title: 'Secure', content: 'Committed to providing peace of mind' },
+      { icon: 'affordable', title: 'Wide Choices', content: 'A selection of top brands around the world' },
+      { icon: 'reviews', title: 'Affordable', content: 'Home of genuine and affordable products' },
+      { icon: 'wideChoice', title: 'Global Reviews', content: 'A collection of reviews for making informed choices' },
+      { icon: 'secure', title: 'Secure', content: 'Committed to providing peace of mind' },
     ];
     const supportLinkList = [
       { title: 'Help Center', href: '/' },
@@ -48,10 +48,8 @@ export function Footer({menu}) {
       { icon: 'twitter', href: '/' },
       { icon: 'linkedin', href: '/' },
     ];
-    const brandLinkList = [
-      { icon: 'keep-online', href: '/' },
-    ];
-    const paymentList = ['paypal', 'visa', 'jcb', 'american-express', 'mastercard', 'giropay', 'p24', 'ideal', 'linepay', 'kaokaopay', 'sofort', 'mbpay', 'alipay', 'discover', 'diners', 'maestro'];
+    const paymentList = ['paypal', 'visa', 'mastercard'];
+    // const paymentList = ['paypal', 'visa', 'jcb', 'american-express', 'mastercard', 'giropay', 'p24', 'ideal', 'linepay', 'kaokaopay', 'sofort', 'mbpay', 'alipay', 'discover', 'diners', 'maestro'];
   
   
   return (
@@ -65,11 +63,10 @@ export function Footer({menu}) {
         <ul className="service-list">
           {
             serviceList.map((item, i) => {
-              // const IconTem = item.icon;
+              const IconTem = item.icon;
               return (
                 <li key={i}>
-                  <div className="service-icon">
-                  {/* <IconTem /> */}
+                  <div className={`service-icon service-icon-${IconTem}`}>
                   </div>
                   <div className="content">
                     <h2>{item.title}</h2>
@@ -130,36 +127,16 @@ export function Footer({menu}) {
                   followLinkList.map((item, i) => {
                     return (
                       <li className='follow-item' key={i}>
-                        <a className={`follow-icon ${item.icon}`} href={item.href} target="_blank" rel="noreferrer"></a>
+                        <div className={`follow-icon ${item.icon}`} href={item.href} target="_blank" rel="noreferrer"></div>
                       </li>
                     )
                   })
                 }
               </ul>
-              <p className='channel-title'>
-                <span>Gshopper App</span>
-              </p>
-              <a
-                className='download-text'
-                target='_blank'
-                href={`/`}
-                rel="noreferrer">
-                <span>Download Gshopper App</span>
-              </a>
             </li>
             <li className='footer-channel-item'>
-              <p className='channel-title'>Sub-brands</p>
-              <ul className='brand-link-list'>
-                {
-                  brandLinkList.map((item, i) => {
-                    return (
-                      <li className='brand-item' key={i}>
-                        <a className={`brand-icon ${item.icon}`} href={item.href} target="_blank" rel="noreferrer"></a>
-                      </li>
-                    )
-                  })
-                }
-              </ul>
+              <p className='channel-title'>Newsletter</p>
+          
             </li>
           </ul>
         </section>
@@ -169,7 +146,7 @@ export function Footer({menu}) {
               paymentList.map((item, i) => {
                 return (
                   <li className='payment-item' key={i}>
-                   <i className={`icon-payment ${item}`}></i>
+                   <div className={`icon-payment ${item}`}></div>
                   </li>
                 )
               })
@@ -180,6 +157,7 @@ export function Footer({menu}) {
       </section>
       <section className='copy-right'>
         Copyright ® 2022 Gshopper All Rights Reserved
+        <div className='footer-test'></div>
       </section>
     </Section>
 
