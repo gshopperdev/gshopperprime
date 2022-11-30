@@ -1,6 +1,7 @@
 import {Link, useUrl, useCart,Image} from '@shopify/hydrogen';
 import {useWindowScroll} from 'react-use';
 import logoImg from '~/assets/header/logo.png';
+import searchImg from '~/assets/header/search.png';
 import aboutImg from '~/assets/header/about.png';
 import cartImg from '~/assets/header/cart.png';
 import dropDownImg from '~/assets/header/dropDown.png';
@@ -89,7 +90,7 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
 
   return (
     <header role="banner" className={styles.container}>
-      <div className="flex items-center justify-start w-full gap-4">
+      <div className="flex items-center justify-start w-full gap-4 header-search-wrap">
         <button onClick={openMenu} className={styles.button}>
           <IconMenu />
         </button>
@@ -193,7 +194,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
               ))}
             </nav> */}
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 header-search-wrap">
           <form
               action={`/${countryCode ? countryCode + '/' : ''}search`}
               className="flex items-center gap-2 header-search"
@@ -210,7 +211,13 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
                 name="q"
               />
               <button type="submit" className={`${styles.button} header-search-btn`}>
-                <IconSearch />
+                {/* <IconSearch /> */}
+                <Image
+                alt="search"
+                src={searchImg}
+                width={16}
+                height={16}
+              />
               </button>
             </form>
         </div>

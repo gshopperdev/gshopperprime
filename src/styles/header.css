@@ -35,23 +35,36 @@
         display: flex;
         justify-content: space-between;
     }
+    .header-search-wrap{
+        max-width: 500px;
+        display: flex;
+        flex: 1;
+        margin: 0 80px;
+    }
     .header-search {
+        width: 100%;
+        box-sizing: content-box;
         border: 2px solid #FF5224;
         border-radius: 20px;
+        position: relative;
+        height: 36px;
     }
-    
     .header-search-input {
+        text-align: left;
         font-size: 14px;
         color: rgb(0 0 0/65%);
+        flex: 1;
+        padding: 0 50px 0 20px;
     }
     
     .header-search-btn {
+        position: absolute;
+        right: -2px;
+        top: -2px;
         background: #FF5224;
         width: 50px;
         height: 40px;
         border-radius: 20px;
-        margin-right: -2px;
-        margin-top: -2px;
     }
     .header-search-icon{
         display: flex;
